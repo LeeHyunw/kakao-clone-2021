@@ -1,8 +1,8 @@
 .status-bar {
-    display: flex;
     justify-content: center;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
+    display: flex;
 }
 
 .status-bar__column {

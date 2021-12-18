@@ -6,6 +6,8 @@
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
+    border-top: 1px solid rgba(121,121,121,0.3);
+
 }
 
 
@@ -14,4 +16,33 @@
     display: flex;
     justify-content: space-between;
     color: #2e363e;
+}
+
+.nav-a {
+    position: relative;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__notification2 {
+    background-color: tomato;
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
 }
