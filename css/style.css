@@ -6,6 +6,13 @@
 @import "./compon/screen-header.css";
 @import "./screen/friends.css";
 @import "./compon/user-component.css";
+@import "./compon/badge.css";
+@import "./screen/find.css";
+@import "./compon/icon-row.css";
+@import "./screen/more.css";
+@import "./compon/alt-screen-header.css";
+@import "./screen/settings.css";
+@import "./screen/chat.css";
 
 /*  library */
 .row::after , .row::before{
@@ -23,5 +30,9 @@ input:focus {
 body{
     color: #2e363e;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
 

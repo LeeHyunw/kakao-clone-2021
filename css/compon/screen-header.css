@@ -3,11 +3,16 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
+    margin-bottom: 10px;
 }
 
 .header__title  {
     font-size: 32px;
     font-weight: 600;
+}
+
+.header__icons {
+    position: relative;
 }
 
 .header__icons span {
@@ -16,4 +21,14 @@
 
 .friends__screen {
     padding: 0px var(--horizontal-space);
+}
+
+.find__notification2 {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    position: absolute;
+    right: -5px;
+    bottom: 20px;
 }
