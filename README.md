@@ -1,3 +1,3 @@
-# kakao clone 2021
+# Kokoa clone 2021
 
 nico is better!
